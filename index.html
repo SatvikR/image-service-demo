@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Service Demo</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Image Service Demo</h1>
+    <div>
+      <input type="file" name="image" id="imageInput" />
+      <button id="imageButton" onclick="uploadImage()">Upload</button>
+    </div>
+    <br />
+    <div>
+      <input type="text" id="urlInput" />
+      <button id="deleteButton" onclick="deleteImage()">Delete Image</button>
+    </div>
+    <img src="" id="imageView" name="imageView" />
+    <br />
+    <i>
+      <p for="imageView" id="imageLabel"></p>
+    </i>
+  </body>
+</html>
